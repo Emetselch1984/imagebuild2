@@ -1,5 +1,5 @@
 FROM docker/whalesay:latest
 ENV AUTHOR="Emetselch1984"
-RUN apt-get -y update && apt-get install -y fortunes
+#RUN apt-get -y update && apt-get install -y fortunes
 
 CMD /usr/games/fortune | cowsay
